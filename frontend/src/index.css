@@ -2,8 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
 
+/* ROOT STYLES */
+:root {
+    /* colors */
+    --primary: black;
+    --secondary: ;
 }
+
 
 
