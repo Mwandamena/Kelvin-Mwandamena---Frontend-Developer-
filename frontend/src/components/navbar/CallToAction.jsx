@@ -1,8 +1,9 @@
 import React from 'react'
+import Button from "../common/Button"
 
 function CTA() {
   return (
-    <div>Call to action button</div>
+    <div><Button label={`Get Started`} /></div>
   )
 }
 

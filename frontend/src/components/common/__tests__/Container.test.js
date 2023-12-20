@@ -1,6 +1,6 @@
-import Footer from "./Footer"
+import Container from "../Container"
 
-describe("Footer", ()=> {
+describe("Container", ()=> {
     it("Should behave correctly", ()=> {
         render(<App />)
         debug()

@@ -1,8 +1,8 @@
-import Grid from "./Grid"
+import Logo from "../Logo"
 
-describe("Grid", ()=> {
+describe("Logo", ()=> {
     it("Should show the behave correctly", ()=> {
-        render(<App />)
+        render(<Logo />)
         debug()
     })
 })
