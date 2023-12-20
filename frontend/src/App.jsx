@@ -1,5 +1,5 @@
 import { useState } from "react";
-import {Navbar} from "./components/index.js"
+import {Hero, Navbar} from "./components/index.js"
 
 function App() {
 
@@ -9,6 +9,7 @@ function App() {
       <Navbar />
 
       {/* hero component */}
+      <Hero />
 
       {/* grid and search components */}
 

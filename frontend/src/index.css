@@ -2,6 +2,19 @@
 @tailwind components;
 @tailwind utilities;
 
+/*  IMPORT ALL FONTS */
+
+/* D-Din font */
+@font-face {
+    font-family: Din;
+    src: url("./assets/fonts/D-DIN-Bold.otf");
+}
+
+/* karla font */
+@font-face {
+    font-family: Karla;
+    src: url("./assets/fonts/Karla-Regular.ttf");
+}
 
 /* ROOT STYLES */
 :root {
@@ -10,5 +23,13 @@
     --secondary: ;
 }
 
+
+body {
+    font-family: Karla, sans-serif;
+}
+
+.hero-text {
+    font-family: Din, sans-serif;
+}
 
 
